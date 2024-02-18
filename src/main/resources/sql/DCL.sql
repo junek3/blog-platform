@@ -1,0 +1,3 @@
+CREATE USER 'test'@'%' IDENTIFIED BY '1234';
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON blog.* TO 'test'@'%';
